@@ -2,13 +2,13 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from joblib import load
-import cloudpickle
+import pickle
 
 import numpy as np
 import pandas as pd
 
 with open("../pipelines/pipeline.pkl", "rb") as f:
-    pipeline = cloudpickle.load(f)
+    pipeline = pickle.load(f)
 
 model = load("../models/finetuned/stacking_classifier.joblib")
 
