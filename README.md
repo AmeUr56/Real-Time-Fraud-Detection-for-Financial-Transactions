@@ -1,5 +1,5 @@
 # Project
-**FraudGuard**: Real-Time Fraud Detection for Financial Transactions
+**FraudAvert**: Real-Time Fraud Detection for Financial Transactions
 
 # Purpose
 The goal is to build a **machine learning model** to detect fraudulent transactions using synthetic financial datasets, helping businesses identify and mitigate fraud risks.
