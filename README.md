@@ -19,3 +19,7 @@ How can we accurately identify fraudulent financial transactions in real-time?
 - Build and train machine learning models for fraud detection.
 - Evaluate the model's performance.
 - Provide a deployable fraud detection solution for businesses.
+
+License
+This web app is licensed under the MIT License.
+Copyright (c) 2024 [Ameur].
