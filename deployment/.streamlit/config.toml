@@ -1,0 +1,30 @@
+[theme]
+base="light"  # Keeping it light for readability and professionalism
+primaryColor="#4CAF50"  # A rich green symbolizing financial growth, prosperity, and security
+backgroundColor="#F1F9F4"  # A very light green-gray to maintain a fresh, professional look
+secondaryBackgroundColor="#D0E8D5"  # A soft, subtle green that complements the primary green
+textColor="#2D3E36"  # Dark greenish-gray text for a natural, easy-to-read look
+font="sans serif"  # Clean and modern sans-serif font for a tech-savvy feel
+
+# For buttons and interactive elements
+buttonColor="#388E3C"  # A darker green for active buttons, conveying trust and stability
+buttonTextColor="#FFFFFF"  # White text on buttons to stand out clearly
+buttonHoverColor="#66BB6A"  # A brighter green for hover effect, signaling interactivity
+
+# Sidebar and navigation styling
+sidebarBackgroundColor="#1B5E20"  # A deeper green for the sidebar, evoking a sense of security
+sidebarTextColor="#F1F1F1"  # Light text color for readability in the sidebar
+sidebarButtonColor="#66BB6A"  # A green that signifies approval or action in the sidebar
+sidebarButtonHoverColor="#388E3C"  # Slightly darker green for hover effect in the sidebar
+
+# Special emphasis on alerts and important messages
+alertBackgroundColor="#FFEB3B"  # Bright yellow to grab attention for fraud alerts or warnings
+alertTextColor="#000000"  # Black text for high contrast and visibility in alerts
+
+# Progress bars and interactive elements
+progressBarColor="#8BC34A"  # Lighter green for progress bars, symbolizing steady progress
+progressBarBackgroundColor="#F1F9F4"  # A lighter background for progress bars to keep the theme consistent
+
+# Scrollbar customization
+scrollbarColor="#A5D6A7"  # Light green scrollbar for a clean and subtle effect
+scrollbarHoverColor="#81C784"  # Darker green when hovering over the scrollbar
