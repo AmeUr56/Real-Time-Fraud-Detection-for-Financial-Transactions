@@ -3,14 +3,16 @@ import streamlit.components.v1 as components
 
 from joblib import load
 import pickle
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-with open("../pipelines/pipeline.pkl", "rb") as f:
-    pipeline = pickle.load(f)
+pipeline_path = Path(__file__).parent.parent / "pipelines/pipeline.pkl"
+pipeline = load(pipeline_path)
 
-model = load("../models/finetuned/stacking_classifier.joblib")
+pipeline_path = Path(__file__).parent.parent / "models/finetuned/stacking_classifier.joblib"
+model = load(pipeline_path)
 
 linkedin_profile_badge = """
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>

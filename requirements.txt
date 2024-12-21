@@ -3,4 +3,6 @@ pandas
 matplotlib
 seaborn
 joblib
+cloudpickle
 streamlit
+scikit-learn
