@@ -54,11 +54,12 @@ with tab1:
         
         submit_button = st.form_submit_button(label="Predict")
     
-        data = pd.DataFrame(np.array([monthly_hour_val,type_val,amount_val,sender_balance_val,receiver_balance_val]).reshape(1,-1))
-        data.columns = ["MonthlyHour","Type","Amount","SenderBalance","ReceiverBalance"]
+        data = pd.DataFrame(np.array([monthly_hour_val,type_val,amount_val,sender_balance_val,receiver_balance_val]).reshape(1,-1),
+                            columns=["MonthlyHour","Type","Amount","SenderBalance","ReceiverBalance"])
+      
         for col in ["MonthlyHour","Amount","SenderBalance","ReceiverBalance"]:
-            data[col] = float(data[col])
+            data[col] = data[col].astype(float)
                                       
         if submit_button:
             data = pipeline.transform(data)
-            st.text(model.predict(data))   
+            st.text(model.predict(data))
